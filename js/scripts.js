@@ -21,11 +21,10 @@ fetch(url)
       // template
       const template = `
           <figure>
-            <figcaption>Student</figcaption>
+            <figcaption>"${student.items}"</figcaption>
             <img src="${student.image.url}" alt="Placeholder" />
           </figure>
        `;
-
       // insert EACH `student` record into container
       gallery.insertAdjacentHTML("afterbegin", template);
     });
