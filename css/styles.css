@@ -1,0 +1,22 @@
+/* My Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    background-color: aliceblue;
+}
+
+img {
+    max-width: 100%;
+    width: 100px;
+}
+
+.center {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: bisque;
+}
